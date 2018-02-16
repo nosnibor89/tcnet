@@ -11,7 +11,7 @@ namespace TCNet.Controllers
         // GET: Home
         public ActionResult Index()
         {
-            var deployCounts = 1;
+            var deployCounts = 2;
             return View("Index", deployCounts);
         }
     }
